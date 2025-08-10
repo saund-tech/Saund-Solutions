@@ -1,0 +1,147 @@
+.ad-con {
+    align-items: center;
+    padding: 20px 60px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.ad-con .ad1{
+    text-align: center;
+}
+
+.ad-con .ad1 h1{
+    text-align: center;
+    background-color: red;
+    padding: 5px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 60px;
+    width: 100%;
+}
+
+.ad-con .ad1 h2{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.ad-con .ad1 h4{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 25px;
+    margin-top: 15px;
+}
+
+.ad-con .ad1 h4 span{
+    font-size: 30px;
+    font-weight: 700;
+    color: red;
+}
+
+.ad-con .ad1 .s2{
+    font-size: 50px;
+    font-weight: 700;
+    color: green;
+}
+
+.ad-img{
+    width: 90%;
+    text-align: center;
+    margin: 20px 0;
+    box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.1);
+}
+.ad-img img{
+    width: 100%;
+    text-align: center;
+}
+
+.ad2{
+    width: 90%;
+    text-align: start;
+    margin: 20px auto;
+}
+
+.ad-con .ad2 h4{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 25px;
+    margin: 15px 0;
+}
+
+.ad-con .ad2 h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: brown;
+}
+
+.ad-con .ad2 ul{
+    
+}
+
+.ad-con .ad2 ul li{
+    font-size: 20px;
+    list-style: square;
+    font-weight: 400;
+}
+
+.ad-con button{
+    width: 70%;
+    padding: 10px 20px;
+    text-align: center;
+    border: 3px solid #eee;
+    border-radius: 15px;
+    background: gold;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+
+@media (max-width: 768px){
+    .ad-con .ad1 h1{
+        font-size: 30px;
+    }
+    
+    .ad-con .ad1 h2{
+        font-size: 20px;
+    }
+    
+    .ad-con .ad1 h4{
+        font-size: 16px;
+    }
+    
+    .ad-con .ad2 h2{
+        font-size: 20px;
+    }
+    
+    .ad-con .ad2 ul li{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px){
+    .ad-con .ad1 h1{
+        font-size: 24px;
+    }
+    
+    .ad-con .ad1 h2{
+        font-size: 18px;
+    }
+    
+    .ad-con .ad1 h4{
+        font-size: 14px;
+    }
+    
+    .ad-con .ad2 h2{
+        font-size: 18px;
+    }
+    
+    .ad-con .ad2 ul li{
+        font-size: 12px;
+    }
+    
+    .ad-con button{
+        width: 90%;
+        font-size: 16px;
+    }
+}
+
